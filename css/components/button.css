@@ -1,0 +1,15 @@
+.button-container {
+    margin-left: auto;
+}
+
+.my-button {
+    display: block;
+    background-color: lightcoral;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+  }
+

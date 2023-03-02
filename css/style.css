@@ -1,0 +1,156 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #f2f2f2;
+	padding: 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+h1 {
+	font-size: 32px;
+	margin: 0;
+}
+
+nav {
+	float: right;
+	margin-top: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	float: left;
+	margin-left: 20px;
+}
+
+nav ul li a {
+	color: #333;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #666;
+}
+
+section {
+	padding: 100px 0;
+}
+
+#banner {
+	background-image: url('../image/banner.jpeg');
+	background-size:contain;
+	background-position: auto;
+	color: #fff;
+	text-align: center;
+}
+
+#banner h2 {
+	font-size: 48px;
+	margin: 0;
+}
+
+.button {
+	display: inline-block;
+	background-color: #f44336;
+	color: #fff;
+	padding: 10px 20px;
+	margin-top: 20px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.button:hover {
+	background-color: #e60000;
+}
+
+#chefs {
+	background-color: #f2f2f2;
+}
+
+.chef {
+	float: left;
+	width: 33.33%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.chef img {
+	max-width: 100%;
+	height: auto;
+}
+
+.chef h4 {
+	font-size: 24px;
+	margin: 20px 0 10px;
+}
+
+.chef p {
+	font-size: 16px;
+	margin: 0;
+}
+
+#about {
+	background-color: #fff;
+}
+
+#faq {
+	background-color: #f2f2f2;
+}
+
+#faq h4 {
+	margin-top: 40px;
+}
+
+#contact {
+	background-color: #f2f2f2;
+}
+
+form {
+	margin-top: 40px;
+}
+
+label, input, textarea {
+	display: block;
+}
+
+label {
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+input, textarea {
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 5px;
+}
+
+input[type="submit"] {
+	background-color: #f44336;
+	color: #fff;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #e60000;
+}
